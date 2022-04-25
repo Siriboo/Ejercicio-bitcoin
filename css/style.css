@@ -1,0 +1,114 @@
+body{
+    background: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/*Sirve para arreglar la posicion y el ancho del header*/
+header{
+    position: relative;
+    width: 100%;
+}
+
+/* Sirve para ajustar las columnas o contenido en 2*/
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+/*Sirve para colocar los menus al lago del logo*/
+header nav ul{
+    display: flex;
+}
+
+/*Sirve para la separacion de los otros elementos y que no quede subrayado*/
+header nav ul li{
+    margin: 5px 20px;
+    list-style: none;
+}
+
+/*Sirve para colocar color de texto, tamaño, transicion y efectos del menu del header*/
+nav ul li a{
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    transition: .7s;
+    padding: 6px 8px;
+    border: 2px solid transparent;
+}
+
+/*Sirve para ajustar el hero del header en proporcion a la pagina*/
+header #hero{
+    width: 100%;
+    position: relative;
+}
+
+header #hero h1{
+    position: absolute;
+    top: 5%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 7px 8px 12px #000000;
+    background: #0fdbff3a;
+    padding: 30px 0;
+}
+
+header #hero h3{
+    position: absolute;
+    top: 9%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 7px 8px 12px #000000;
+    padding: 30px 0;
+}
+
+header #hero img{
+    width: 100%;
+}
+
+nav ul li a:hover{
+    background: #4ed0ff;
+    border: 2px solid #000000;
+}
+
+/* START MAIN */
+
+main{
+    width: 100%;
+    position: relative;
+}
+    
+main #welcome{
+    background:#FFFFFF;
+    width: 100%;
+}
+
+main #welcome .row{
+    background: #379ec4;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main #welcome .row #conText{
+    width: 40%;
+    padding: 50px 0;
+}
+
+main #welcome .row #conImg{
+    width: 40%;
+    padding: 50px 0;
+}
+
+main #welcome .row #conImg img{
+    width: 100%;
+    max-width:  500px 0;
+}
